@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v "$(pwd)":/tvshows -v ~/configs/tvnamer:/root 79a41483759b "$@"

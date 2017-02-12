@@ -1,0 +1,24 @@
+{
+    "servername": "Alle Zimmer",
+    "webuiport": 8089,
+    "debug": false,
+    "idletimout": 600,
+    "zones": [
+        {
+            "name": "Wohnzimmer (Apple TV)",
+            "host": "192.168.1.38",
+            "port": "5000",
+            "volume": "50",
+            "enabled": true,
+            "hidden": false
+        },
+        {
+            "name": "Arbeitszimmer (Synology)",
+            "host": "192.168.1.20",
+            "port": "5000",
+            "volume": "50",
+            "enabled": true,
+            "hidden": false
+        }
+    ]
+}
